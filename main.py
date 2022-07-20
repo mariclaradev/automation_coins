@@ -6,11 +6,11 @@ import requests
 import wget
 import heroku3
 from time import sleep
-key="KEY DO HEROKU"
-nickname="NICK DA CONTA"
-app_name="NOME APP HEROKU"
-url="REPLIT PARA SALVAR"
-password="SENHA DAS CONTAS"
+key="65e14539-0382-408c-9797-379be7ddcdaf"
+nickname="fox kyo"
+app_name="kkyo001"
+url="https://Kkyo002.kyoaxy.repl.co"
+password="anime2018*"
 
 # Na linha 24 você tem que colocar um deviceid onde indicado
 # On line 24 you have to put a deviceid where indicated
@@ -23,7 +23,7 @@ def restart():
     botapp.restart()
 def send(data):
     requests.post(f"{url}/save",data=data)
-client=amino.Client("DEVICEID AQUI")
+client=amino.Client("42139AA1539FF33887304A67F1A4BAA4C28A8684E4FA2E93D7D8429B220C02D2AC45347069F8F34907")
 
 def codee(link):
     return requests.post("https://api-accgen.herokuapp.com", data={"text": link}).json()['captcha']
