@@ -1,0 +1,25 @@
+Este script foi desenvolvido para automatizar a transferência de recursos entre contas dentro de um aplicativo. Ele elimina a necessidade de processos manuais repetitivos, aumentando a eficiência e reduzindo erros operacionais.
+
+O script utiliza diversas bibliotecas para garantir uma automação eficiente e segura:
+
+requests – Faz requisições HTTP para comunicação com APIs.
+bs4 (BeautifulSoup) – Extrai dados de páginas HTML/XML para análise.
+pymongo – Conecta e gerencia bancos de dados MongoDB.
+dnspython – Lida com consultas DNS, útil para conexões com MongoDB Atlas.
+heroku3 – Gerencia aplicações no Heroku, caso o script precise de hospedagem.
+python_rucaptcha – Resolve captchas automaticamente durante a automação.
+secmail – Gera e gerencia e-mails temporários para criar contas automaticamente.
+wget – Baixa arquivos da web, caso necessário para a automação.
+names – Gera nomes aleatórios para registros automáticos.
+gunicorn – Servidor WSGI para rodar aplicações web junto com Flask ou Django.
+Jinja2, MarkupSafe, Werkzeug, itsdangerous – Utilizadas para segurança e manipulação de templates web.
+
+Principais funcionalidades:
+✅ Autenticação Automática – Realiza login com credenciais seguras.
+✅ Consulta de Saldo – Verifica os recursos disponíveis antes da transferência.
+✅ Processamento de Transferência – Executa a transferência conforme critérios definidos.
+✅ Registro e Log – Salva registros das transações para auditoria.
+✅ Notificações – Pode enviar alertas sobre o status das operações.
+
+O script pode ser utilizado em bancos digitais, carteiras virtuais e sistemas internos de gerenciamento financeiro, garantindo segurança e conformidade com regras de negócio pré-estabelecidas.
+
