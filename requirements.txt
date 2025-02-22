@@ -14,4 +14,4 @@ pymongo
 dnspython
 heroku3
 python_rucaptcha
-Dick.py==1.6.9
+gick.py==1.6.9
